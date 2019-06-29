@@ -1,0 +1,11 @@
+main
+	Glcd_Init
+		Strobe
+			Delay_10us
+	Glcd_Fill
+		Glcd_Set_Page
+			Strobe
+				Delay_10us
+		Glcd_Write_Data
+			Strobe
+				Delay_10us
